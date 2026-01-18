@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    color: #e5e5e5;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 5px;
+    /* border: 1px solid black; */
+    height: 40px;
+    background-color: #181818;
+}
+
+img{
+    text-decoration: none;
+    height: 80px;
+    padding-left: 5px;
+}
+
+.heading{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 30px;
+    color: #c084fc;
+}
+
+.main{
+    border:1px solid black;
+    overflow-y: auto;
+    flex: 1;
+    background-color: #181818;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #181818;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+li:hover {
+    background-color: #2a2a2a;
+}
+
+.SongBarStruct{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-right: 10px;
+    height: 50px;
+    min-height: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.SongName{
+    font-size: 25px;
+}
+
+#songlogo{
+    height: 40px;
+    width: 50px
+}
+
+.footer{
+    /* border: 1px solid black; */
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+    background-color: #181818;
+    color: #a1a1aa;
+}
+
+
